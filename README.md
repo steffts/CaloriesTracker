@@ -22,3 +22,16 @@ MainActivity.java: Manages fragment transactions and serves as the main entry po
 InsertFragment.java: Handles adding new food items.
 ListViewFragment.java: Displays the list of food items.
 UpdateAndDeleteFragment.java: Manages updates and deletions of existing food items.
+## Usage
+Adding a Food Item: Start on the Add Food Screen, enter the name and calorie count, and press "Add" to save the item.
+Viewing and Selecting: Switch to the Food List Screen to see all added items. Tap on an item to open it in the Update and Delete Screen.
+Updating or Deleting: Edit the selected food item and press "Update" to save changes, or "Delete" to remove it from the list. You will be navigated back to the main list automatically after each action.
+## Future Enhancements
+User Authentication: Allow users to create accounts and log in to manage their data.
+History and Statistics: Track daily calorie intake trends over time.
+Improved UI/UX: Add animations and enhanced layouts.
+### Contributing
+Feel free to fork the repository and submit pull requests. Contributions to improve the functionality or UI of the app are welcome!
+
+### License
+This project is licensed under the MIT License.
