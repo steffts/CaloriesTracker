@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/food_name_input"
+        android:layout_width="379dp"
+        android:layout_height="67dp"
+        android:hint="Food Name"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/calories_input"
+        android:layout_width="375dp"
+        android:layout_height="67dp"
+        android:hint="Calories"
+        android:inputType="number"
+        tools:ignore="HardcodedText" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
